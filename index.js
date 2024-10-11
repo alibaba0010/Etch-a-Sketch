@@ -94,18 +94,3 @@ function handleClick(event) {
 //     });
 //   }
 // }
-// function createGrid(size) {
-//   let gridSize = 960; // Container width
-//   let itemSize = gridSize / size;
-//   container.style.width = `${gridSize}px`;
-//   for (let i = 0; i < size * size; i++) {
-//     let div = document.createElement("div");
-//     div.style.width = `${itemSize}px`;
-//     div.style.height = `${itemSize}px`;
-//     div.classList.add("gridItem");
-//     div.addEventListener("mouseover", function () {
-//       this.style.backgroundColor = "black";
-//     });
-//     container.appendChild(div);
-//   }
-// }
